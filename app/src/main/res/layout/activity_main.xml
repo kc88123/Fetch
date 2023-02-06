@@ -36,7 +36,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_weight="1"
-            android:text="lidtId"
+            android:text="listId"
             android:textSize="18dp"
             android:textColor="@color/black" />
         <TextView
