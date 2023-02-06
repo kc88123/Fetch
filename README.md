@@ -16,5 +16,5 @@ The unit test includes
 
 The preview of the app looks like
 
-![alt text](https://github.com/kc88123/Fetch/blob/master/preview_of_app.png)
+![alt text](https://github.com/kc88123/Fetch/blob/031d81a27abefe9add26142a74d4f361e55c5229/preview_of_app.png)
 
