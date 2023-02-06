@@ -12,5 +12,9 @@ The unit test includes
 2. check if the display list if grouped by listId
 3. check if the display list if sort by listId and name
 
+
+
 The preview of the app looks like
+
+![alt text](https://github.com/kc88123/Fetch/blob/master/preview_of_app.png)
 
