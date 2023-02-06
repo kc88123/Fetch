@@ -1,5 +1,5 @@
 # Android Take Home Exercise
-[toc]
+
 ## Main Funtion
 ### 1. Main Activity
  - The main activity code is located at the following link:  [link](https://github.com/kc88123/Fetch/blob/992ec1b362e3af96035242c4ea71884c99afd7ac/app/src/main/java/com/example/fetch/MainActivity.java)
@@ -13,9 +13,9 @@
 ### 3. Data Structure of Fetched Data
 - The data structure uses the following import: "import com.google.gson.annotations.SerializedName;"
 - The data structure is as follows:
-  > private String name;
-  > private int id;
-  > private int listId;
+  > private String name;                  
+  > private int id;                             
+  > private int listId;                         
 
 ## 4. Fetch Data From Link
 - Data is fetched using the RetrofitClient.
