@@ -25,12 +25,6 @@ import androidx.lifecycle.LiveData;
 public class MainActivity extends Activity {
 
     ListView simpleList;
-    String[] countryList = {"India", "China", "australia", "Portugle", "America", "NewZealand",
-                            "India", "China", "australia", "Portugle", "America", "NewZealand"};
-    String[] countryList1 = {"China", "China", "China", "China", "China", "China",
-                             "China", "China", "China", "China", "China", "China"};
-    String[] countryList2 = {"America", "America", "America", "America", "America", "America",
-                             "America", "America", "America", "America", "America", "America"};
 
     @Override   protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,8 +32,6 @@ public class MainActivity extends Activity {
         simpleList = (ListView)findViewById(R.id.simpleListView);
 
         getWebData();
-//        CustomAdapter customAdapter = new CustomAdapter(getApplicationContext(), countryList, countryList1, countryList2);
-//        simpleList.setAdapter(customAdapter);
     }
     private void getWebData() {
         Call<List<Results>> call = RetrofitClient.getInstance().getMyApi().getsuperHeroes();
