@@ -7,5 +7,5 @@ public interface Api {
 
     String BASE_URL = "https://fetch-hiring.s3.amazonaws.com/";
     @GET("hiring.json")
-    Call<List<Results>> getsuperHeroes();
+    Call<List<Results>> getWebData();
 }

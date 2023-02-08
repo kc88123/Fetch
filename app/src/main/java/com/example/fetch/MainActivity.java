@@ -34,7 +34,7 @@ public class MainActivity extends Activity {
         getWebData();
     }
     private void getWebData() {
-        Call<List<Results>> call = RetrofitClient.getInstance().getMyApi().getsuperHeroes();
+        Call<List<Results>> call = RetrofitClient.getInstance().getMyApi().getWebData();
 
         call.enqueue(new Callback<List<Results>>() {
             @Override
