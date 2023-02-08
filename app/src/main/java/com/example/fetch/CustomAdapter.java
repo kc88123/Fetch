@@ -19,7 +19,6 @@ public class CustomAdapter extends BaseAdapter {
     LayoutInflater inflter;
 
     public CustomAdapter(Context applicationContext, String[] listId, String[] id, String[] name) {
-        this.context = context;
         this.listId = listId;
         this.id = id;
         this.name = name;
@@ -44,12 +43,12 @@ public class CustomAdapter extends BaseAdapter {
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
         view = inflter.inflate(R.layout.text_view, null);
-        TextView country = (TextView) view.findViewById(R.id.textView);
-        TextView country1 = (TextView) view.findViewById(R.id.textView1);
-        TextView country2 = (TextView) view.findViewById(R.id.textView2);
-        country.setText(listId[i]);
-        country1.setText(id[i]);
-        country2.setText(name[i]);
+        TextView col0_listId = (TextView) view.findViewById(R.id.textView);
+        TextView col1_id = (TextView) view.findViewById(R.id.textView1);
+        TextView col2_name = (TextView) view.findViewById(R.id.textView2);
+        col0_listId.setText(listId[i]);
+        col1_id.setText(id[i]);
+        col2_name.setText(name[i]);
         return view;
     }
 }

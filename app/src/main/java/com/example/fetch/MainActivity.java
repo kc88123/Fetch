@@ -36,8 +36,10 @@ public class MainActivity extends Activity {
     private void getWebData() {
         Call<List<Results>> call = RetrofitClient.getInstance().getMyApi().getWebData();
 
+        // asynchronously sends the request and notifies your app with a callback when a response comes back
         call.enqueue(new Callback<List<Results>>() {
             @Override
+            // invoked for a received HTTP response
             public void onResponse(Call<List<Results>> call, Response<List<Results>> response) {
 
                 List<Results> webData = response.body();
